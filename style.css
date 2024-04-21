@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #add8e6; /* Azul claro */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 36px;
+    border: 2px solid #808080; /* Gris */
+}
+
+nav {
+    background-color: #ddd; /* Gris claro */
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #000; /* Negro */
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: #000; /* Negro */
+    color: #fff;
+    text-align: right; /* Alineado a la derecha */
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section {
+    display: flex; /* Flexbox */
+    flex-direction: column; /* Columnas */
+    justify-content: center; /* Centrado vertical */
+    align-items: center; /* Centrado horizontal */
+    gap: 20px; /* Espacio entre las secciones */
+}
+
+article {
+    background-color: #ddd; /* Gris claro */
+    padding: 20px;
+    border: 1px solid #808080; /* Gris más oscuro */
+    width: 50%; /* Ocupar el 50% del ancho disponible */
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #000; /* Negro */
+}
