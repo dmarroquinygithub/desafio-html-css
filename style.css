@@ -58,12 +58,12 @@ footer {
     margin-bottom: 20px;
 }
 
-section {
-    display: flex; /* Flexbox */
-    flex-direction: column; /* Columnas */
-    justify-content: center; /* Centrado vertical */
-    align-items: center; /* Centrado horizontal */
-    gap: 20px; /* Espacio entre las secciones */
+main{
+      display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction:column;
+     margin: 10px;
 }
 
 article {
